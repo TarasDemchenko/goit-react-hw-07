@@ -1,0 +1,18 @@
+.contact {
+  border: 1px solid #373538;
+  margin-left: 20px;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+.con_btn {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
