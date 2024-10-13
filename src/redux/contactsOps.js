@@ -38,8 +38,3 @@ export const addContactThaunk = createAsyncThunk(
     }
   }
 );
-
-// export const fetchContacts = () => async dispatch => {
-//   const { data } = await axios.get(`/contacts`);
-//   dispatch(fetchDataSucces(data));
-// };

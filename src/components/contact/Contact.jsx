@@ -1,7 +1,7 @@
-import { RiContactsFill } from "react-icons/ri";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { MdDelete } from "react-icons/md";
-import css from "./Contact.module.css";
+import { RiContactsFill } from 'react-icons/ri';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import { MdDelete } from 'react-icons/md';
+import css from './Contact.module.css';
 
 const Contact = ({ name, number, onDelete }) => {
   return (

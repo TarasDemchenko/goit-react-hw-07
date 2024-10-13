@@ -1,14 +1,14 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  name: "",
+  name: '',
 
   //   loading: null,
   //   error: null,
 };
 
 const filtersSlice = createSlice({
-  name: "search",
+  name: 'search',
   initialState,
   reducers: {
     changeFilter(state, action) {
@@ -19,4 +19,4 @@ const filtersSlice = createSlice({
 
 export const filtersReducer = filtersSlice.reducer;
 export const { changeFilter } = filtersSlice.actions;
-export const selectNameFilter = (state) => state.search.name;
+export const selectNameFilter = state => state.search.name;
